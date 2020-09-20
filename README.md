@@ -1,7 +1,7 @@
 # Movies-ETL
 
 ## Project Overview
-Within the scope of the Amazing Prime Hackathon, this project will create an automated pipeline that takes in new data, from Wikipedia data, Kaggle metadata and the MovieLens rating data. It then performs the appropriate transformations and loads the data into an existing PostgreSQL database.
+Within the scope of the Amazing Prime Hackathon, this project will create an automated pipeline that takes in new data, from Wikipedia data, Kaggle metadata and the MovieLens rating data. It then performs the appropriate transformations and loads the data into an existing PostgreSQL database.\
 For this analysis, we used the following breakdown:
 1. write an ETL function to read three data files,
 2. extract and transform the Wikipedia data,
@@ -37,4 +37,4 @@ The Kaggle and rating data were then merged with the Wikipedia movies DataFrame.
 <br/>
 
 ## Summary
-The ETL function created collects and cleans movie data from different sources (Wikipedia JSON and Kaggle and ratings csv files). It transforms and merges the data and loads it into two updatable PostgreSQL dataset tables ready to be used by the hackathon participants.
+The ETL function created collects and cleans movie data from different sources (Wikipedia JSON and Kaggle and ratings csv files). It transforms and merges the data and loads it into two updatable PostgreSQL dataset tables ready to be used by the hackathon participants for their analysis.
